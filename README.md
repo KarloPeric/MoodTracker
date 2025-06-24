@@ -30,16 +30,16 @@ MoodTracker ne koristi nikakve vanjske servise i sve podatke sprema lokalno, či
 ## Instalacija i pokretanje aplikacije
 
 ```bash
-# 1. Kloniraj repozitorij
+1. Kloniraj repozitorij
 git clone https://github.com/<tvoje-korisnicko-ime>/MoodTracker.git
 cd MoodTracker
 
-# 2. Buildaj Docker image
+2. Buildaj Docker image
 docker build -t moodtracker .
 
-# 3. Pokreni aplikaciju
+3. Pokreni aplikaciju
 docker run -p 5000:5000 moodtracker
 
-# 4. Otvori preglednik i idi na:
+4. Otvori preglednik i idi na:
 http://localhost:5000
 ```
